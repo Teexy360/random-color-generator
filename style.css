@@ -1,0 +1,64 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.main{
+  width: 400px;
+  height: 500px;
+}
+
+.options{
+  height: 15%;
+  display: flex;
+}
+
+.rgb, .hex{
+  width: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.rgb > button, .hex > button{
+  padding: 10px 50px;
+  font-size: 18px;
+}
+
+.container-button{
+  height: 85%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-direction: column;
+}
+
+#displayRgb, #displayHex{
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  border: 1px solid black;
+}
+
+#displayHex{
+  display: none;
+}
+
+.result{
+  width: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.result > p{
+  font-size: 25px;
+}
